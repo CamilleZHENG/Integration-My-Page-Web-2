@@ -1,0 +1,124 @@
+@font-face{
+	font-family: "or";
+	src:url(../font/oswald.regular.ttf);
+}
+@font-face{
+	font-family: "ob";
+	src:url(../font/oswald.bold.ttf);
+}
+@font-face{
+	font-family: "ol";
+	src:url(../font/oswald.light.ttf);
+}
+body{
+	background-image: url(../images/fond.png);
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+header,main{
+	max-width: 900px;
+	margin: 0 auto;
+}
+header{
+	background-color: rgb(184,203,33);
+}
+nav{
+	float: right;
+	min-width: 60%;
+	margin-top: 2.5em;
+}
+header>nav>ul{
+	font-size: 16px;
+	font-family: "or";
+	text-transform: uppercase;
+	list-style-type: none;
+	width: 100%;
+}
+header>nav>ul li{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+header>nav>ul>li a{
+	color:black;
+}
+h1{
+	font-size: 24px;
+	font-family: "ol";
+	text-transform: uppercase;
+	color:rgb(184,203,33);
+}
+h1:before{
+	font-family: "FontAwesome";
+	content:"\f18c   ";
+}
+h2{
+	color:rgb(184,203,33);
+	font-size: 16px;
+	font-family: "ol";
+}
+p{
+	font-size: 16px;
+	font-family: "ol";
+	text-align: justify;
+}
+main{
+	background-color: white;
+}
+main a{
+	background-color: rgb(184,203,33);
+	font-family: "ol";
+	color: white;
+	float: right;
+	min-width: 80px;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+main article:first-of-type{
+	float: left;
+	max-width: 27%;
+	padding: 3px 5% 0% 5%;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-right: solid grey 0.3px;
+}
+main article:nth-of-type(2){
+	float: right;
+	max-width: 52%;
+	padding: 3px 5% 0% 5%;
+	margin-top: 30px;
+	margin-left: 0;
+	margin-right: 0;
+}
+main article:first-of-type p:last-of-type{
+	margin-bottom: 50px;
+}
+main article:first-of-type > img{
+	width: 100%
+}
+main article:nth-of-type(2) > img{
+	width: 45%;
+	float: left;
+	padding-right: 3%;
+	padding-bottom: 0%;
+}
+main > article:nth-of-type(2) > ul{
+	font-size: 16px;
+	font-family: "ol";
+	margin-left: 5%;	
+	margin-bottom: 50px;
+}
+footer{
+	text-align: center;
+	font-family: arial;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.cleared{
+	clear:both;
+}
